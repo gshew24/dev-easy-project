@@ -1,0 +1,30 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  #facts-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .fact-card {
+    padding: 10px;
+    margin: 5px;
+    border: 1px solid #ddd;
+    width: 300px;
+    border-radius: 5px;
+  }
+  
+  .liked {
+    background-color: #ffdddd;
+  }
+  
+  button {
+    margin: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  

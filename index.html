@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Class Facts</title>
+  <link rel="stylesheet" href="styles/style.css" />
+</head>
+<body>
+  <h1>Class Facts</h1>
+  <input type="text" id="search" placeholder="Search facts..." />
+  <button onclick="sortFacts('alpha')">Sort A-Z</button>
+  <button onclick="sortFacts('reverse')">Sort Z-A</button>
+  <button onclick="sortFacts('random')">Randomize</button>
+
+  <div id="facts-container"></div>
+
+  <h2>Liked Facts ❤️</h2>
+  <div id="liked-container"></div>
+
+  <!-- JavaScript files -->
+  <script src="scripts/facts.js"></script>
+  <script src="scripts/app.js"></script>
+</body>
+</html>
